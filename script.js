@@ -6,15 +6,15 @@ const rateEl = document.getElementById('rate');
 const swap = document.getElementById('swap');
 
 async function calculate() {
-    const currency_one = currencyEl_one.value;
-    const currency_two = currencyEl_two.value;
-    const res = await fetch('https://open.exchangerate-api.com/v6/latest');
-    // console.log('res', res);
-    const data = await res.json();
-    // console.log('data', data);
-    const rate = data.rates[currency_two] / data.rates[currency_one];
-    rateEl.innerText = `1 ${currency_one} = ${rate} ${currency_two}`;
-    amountEl_two.value = (amountEl_one.value * (rate)).toFixed(2);
+  const currency_one = currencyEl_one.value;
+  const currency_two = currencyEl_two.value;
+  const res = await fetch('https://open.exchangerate-api.com/v6/latest');
+  // console.log('res', res);
+  const data = await res.json();
+  // console.log('data', data);
+  const rate = data.rates[currency_two] / data.rates[currency_one];
+  rateEl.innerText = `1 ${currency_one} = ${rate} ${currency_two}`;
+  amountEl_two.value = (amountEl_one.value * (rate)).toFixed(2);
 }
 
 currencyEl_one.addEventListener('change', calculate);
