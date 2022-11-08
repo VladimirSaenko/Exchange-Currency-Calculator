@@ -6,4 +6,4 @@
 
 ### Portfolio: https://vladimirsaenko.github.io/Portfolio-3/sites/site-42/Exchange-Currency-Calculator/index.html
 
-![shutterstock-367050494](https://user-images.githubusercontent.com/56477695/144742116-35b1eb8c-9f2f-4031-865d-ed93173ac392.jpg)
+![img-portfolio](https://user-images.githubusercontent.com/56477695/200495642-e8c4af2a-1ce1-4385-a573-a65d6c8851c7.jpg)
