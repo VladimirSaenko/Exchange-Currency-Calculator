@@ -1,6 +1,4 @@
 # Exchange-Currency-Calculator
- 
-## Калькулятор валют
 
 ### Codepen: https://codepen.io/vladimirsaenko/pen/yLzJdmP
 
